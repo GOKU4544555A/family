@@ -1,0 +1,36 @@
+<html>
+    <head>
+<title>sawal jawab 2021 </title>
+</head>
+<body>
+<p>how to declare the arrays 
+  <h4 id="declaration_of_arrays"></h4> </p>
+  <p>how to get the first element array
+    <h4 id="first_element_of_arrays"></h4> </p>
+    <p>how to get the second element array
+        <h4 id="second_element_of_arrays"></h4> </p>
+        <p>how to loop the  array
+            <h4 id="loop_array"></h4> </p>
+            <p>how to add element in array 
+                <h4 id="add_element_array"></h4> </p>
+</body>
+<script>
+var dbz=["GOKU","VEGETA","VEGITO"]
+console.log(dbz)
+document.getElementById("declaration_of_arrays").innerHTML=dbz;
+var first=dbz[0]
+console.log(first)
+document.getElementById("first_element_of_arrays").innerHTML=first;
+var second=dbz[1]
+console.log(second)
+document.getElementById("second_element_of_arrays").innerHTML=second;
+var  arrayvalue=""
+for(i=0;i<dbz.length;i++){
+console.log(dbz[i])
+arrayvalue=arrayvalue+dbz[i]+"<br>"}
+document.getElementById("loop_array").innerHTML=arrayvalue;
+dbz.push("GOGETA")
+console.log(dbz)
+document.getElementById("add_element_array").innerHTML=dbz;
+</script>
+</html>
